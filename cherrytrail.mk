@@ -27,6 +27,10 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default
 
+# Apache Hack
+PRODUCT_COPY_FILES += \
+prebuilts/sdk/org.apache.http.legacy/org.apache.http.legacy.jar:/system/framework/org.apache.http.legacy.jar
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
